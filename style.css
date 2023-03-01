@@ -96,3 +96,34 @@ p {
   padding: 20px 15px;
   border-radius: 4px;
 }
+
+.sub-head {
+  text-align: left;
+  font-size: 48px;
+}
+
+@media (max-width: 414px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .sub-head {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .launch-link {
+    display: block;
+    margin: 0 20px 50px;
+    text-align: center;
+  }
+}
